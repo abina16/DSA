@@ -4,12 +4,12 @@ public class programming {
 	public static void main(String args[]) throws java.lang.Exception {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		int[] arr = new int[n];
-		int max =-1;
+		Long[] arr = new Long[n];
+		Long max =(long) -1;
 		
 		
 		for (int i=0;i<n;i++) {
-			arr[i] = sc.nextInt();
+			arr[i] = sc.nextLong();
 		}
 		Arrays.sort(arr);
 		for (int i=0;i<n;i++) {
